@@ -1,0 +1,10 @@
+Zadanie 3.1 
+Kod nie jest poprawny, ponieważ „if” musi być w nowej  linii, a nie w tej samej linii co pętla for. Poprawny kod:
+for i in "axby": 
+  if ord(i) < 100: print(i) 
+	  …
+
+Zadanie 3.2 
+1. Przypisanie więcej niż jednej wartości do dwóch zmiennych (x, y = 1, 2, 3)
+2. X = 1, 2, 3 tworzy krotkę (1, 2, 3), a krotki są niemodyfikowalne, więc próba przypisania X[1] = 4 powoduje błąd. 
+3. W Pythonie łańcuchy znaków nie mają metody .append() (Błąd: X.append(„d”)) 
